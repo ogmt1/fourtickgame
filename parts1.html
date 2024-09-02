@@ -1,0 +1,211 @@
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parts1</title>
+     CSS CDN:- Bootstrap 5 link 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   
+</head>
+<body>
+
+    <div class="container">
+    <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+    
+        <div class="form-group">
+            <label for="exampleSelect1">Player Selected</label>
+            <select class="form-control" id="exampleSelect1">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+
+        </div>
+        <div class="form-group">
+            <label for="exampleSelec2">Select wining no</label>
+            <select multiple class="form-control" id="exampleSelect2">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+            
+        </div>
+        <div class="form-group">
+            <label for="exampleTextarez">feedback</label>
+            <textarea class="form-control"  id="example text area" role=""></textarea>
+
+        </div>
+        <div class="form-group">
+            <label for="exampleInputFile"></label>
+            <input type="file" id="exampleInputFile">
+            <small id="filehelp" class="form-text text-muted">Uplaod i'd card</small>
+          </div>
+
+          <fieldset class="form-group">
+            <legend></legend>
+            <div class="form-check">
+                <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="optionsRadios" id="OptinsRadios1" value="option1">Player1 &mdash; Winner
+                     
+                </label> 
+            </div>
+            <div class="form-check">
+                <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2" >Player2 &mdash;Losser
+                    
+                </label> 
+            </div>
+            <div class="form-check-disabled">
+                <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+                </label> 
+            </div> 
+        </fieldset>
+
+        <p></p>
+        
+        <div class="form-check">
+            <label class="form-check-label">
+                <input type="checkbox" class="form-check-input">check me out
+            </label>
+        </div>
+
+        <button type="submit" class="btn btn-default">Submit</button>
+
+      </form>
+
+      </div>
+      
+    
+</body>
+</html>
+
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Form</title>
+    <!-- CSS CDN: Bootstrap 5 link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Optional: Custom CSS for additional styling -->
+    <style>
+        body {
+            background-color: #f8f9fa;
+            padding-top: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .form-label {
+            font-weight: 600;
+        }
+        .btn-custom {
+            background-color: #007bff;
+            color: white;
+            border: none;
+        }
+        .btn-custom:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2 class="mb-4">Registration Form</h2>
+        <form>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your email">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter your password">
+            </div>
+        
+            <div class="mb-3">
+                <label for="exampleSelect1" class="form-label">Player Selected</label>
+                <select class="form-select" id="exampleSelect1">
+                    <option value="" disabled selected>Select a player</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            
+            <div class="mb-3">
+                <label for="exampleSelect2" class="form-label">Select Winning Numbers</label>
+                <select multiple class="form-select" id="exampleSelect2">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            
+            <div class="mb-3">
+                <label for="exampleTextArea" class="form-label">Feedback</label>
+                <textarea class="form-control" id="exampleTextArea" rows="3" placeholder="Provide your feedback here"></textarea>
+            </div>
+            
+            <div class="mb-3">
+                <label for="exampleInputFile" class="form-label">Upload ID Card</label>
+                <input type="file" class="form-control" id="exampleInputFile">
+                <div id="fileHelp" class="form-text">Upload a valid ID card image</div>
+            </div>
+
+            <fieldset class="mb-3">
+                <legend class="col-form-label">Select Option</legend>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1">
+                    <label class="form-check-label" for="optionsRadios1">
+                        Player 1 &mdash; Winner
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+                    <label class="form-check-label" for="optionsRadios2">
+                        Player 2 &mdash; Loser
+                    </label>
+                </div>
+            </fieldset>
+
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="checkMeOut">
+                <label class="form-check-label" for="checkMeOut">Check me out</label>
+            </div>
+
+            <button type="submit" class="btn btn-custom">Submit</button>
+        </form>
+    </div>
+    
+    <!-- JS CDN: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-6pS5CE6UQX5+gjXLT6V6nqkH5kJzYw9lSzkVwC4TPp6v5gVBRzO7u1p7yD/qFv86G" crossorigin="anonymous"></script>
+</body>
+</html>
